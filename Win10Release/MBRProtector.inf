@@ -7,7 +7,7 @@ Signature="$WINDOWS NT$"
 Class=DiskDrive
 ClassGuid={4d36e967-e325-11ce-bfc1-08002be10318}
 Provider  = %johnny%
-DriverVer = 02/25/2017,5.1.2600.0
+DriverVer=02/27/2017,20.38.2.820
 CatalogFile=MBRProtector.cat
 
 [DefaultInstall]
@@ -54,9 +54,9 @@ DefaultDestDir = 12
 1 = %DiskName%,,,""
 
 [Manufacturer]
-%ManufacturerName%=Standard,NT$ARCH$
+%ManufacturerName%=Standard,NTx86
 
-[Standard.NT$ARCH$]
+[Standard.NTx86]
 
 
 [Strings]
